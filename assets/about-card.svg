@@ -21,7 +21,7 @@
     <text class="cl" style="--dl:0.30s" x="26" y="182" xml:space="preserve"><tspan fill="#A8728F">    Exp      </tspan><tspan fill="#CB7DA0">string   </tspan><tspan fill="#C7A6B8">// 3 yrs commercial</tspan></text>
     <text class="cl" style="--dl:0.35s" x="26" y="209" xml:space="preserve"><tspan fill="#A8728F">    Since    </tspan><tspan fill="#CB7DA0">int      </tspan><tspan fill="#C7A6B8">// in IT since 2021</tspan></text>
     <text class="cl" style="--dl:0.40s" x="26" y="236" xml:space="preserve"><tspan fill="#A8728F">    Age      </tspan><tspan fill="#CB7DA0">int      </tspan><tspan fill="#C7A6B8">// 21 y.o</tspan></text>
-    <text class="cl" style="--dl:0.45s" x="26" y="263" xml:space="preserve"><tspan fill="#A8728F">    Focus    </tspan><tspan fill="#CB7DA0">[]string </tspan><tspan fill="#C7A6B8">// postgres · telemetry · k8s</tspan></text>
+    <text class="cl" style="--dl:0.45s" x="26" y="263" xml:space="preserve"><tspan fill="#A8728F">    Focus    </tspan><tspan fill="#CB7DA0">[]string </tspan><tspan fill="#C7A6B8">// k8s · golang · ansible</tspan></text>
     <text class="cl" style="--dl:0.50s" x="26" y="290" xml:space="preserve"><tspan fill="#A8728F">    Brewing  </tspan><tspan fill="#CB7DA0">string   </tspan><tspan fill="#C7A6B8">// peregrine · zero-trust · go</tspan></text>
     <text class="cl" style="--dl:0.55s" x="26" y="317" xml:space="preserve"><tspan fill="#BBA0AE">}</tspan></text>
 </svg>

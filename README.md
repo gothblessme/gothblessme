@@ -30,12 +30,14 @@
 
 <h3 align="center">⠀ ੈ♡ stack</h3>
 
+<p align="center"><img src="https://img.shields.io/badge/languages-C77D9E?style=flat-square&labelColor=C77D9E" alt="languages"></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Go-EBA9C4?style=for-the-badge&logo=go&logoColor=fff&labelColor=EBA9C4" alt="Go">
   <img src="https://img.shields.io/badge/Python-EBA9C4?style=for-the-badge&logo=python&logoColor=fff&labelColor=EBA9C4" alt="Python">
   <img src="https://img.shields.io/badge/Bash-EBA9C4?style=for-the-badge&logo=gnubash&logoColor=fff&labelColor=EBA9C4" alt="Bash">
 </p>
 
+<p align="center"><img src="https://img.shields.io/badge/infra%20%26%20devops-C77D9E?style=flat-square&labelColor=C77D9E" alt="infra & devops"></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Kubernetes-F4B7CE?style=for-the-badge&logo=kubernetes&logoColor=fff&labelColor=F4B7CE" alt="Kubernetes">
   <img src="https://img.shields.io/badge/Docker-F4B7CE?style=for-the-badge&logo=docker&logoColor=fff&labelColor=F4B7CE" alt="Docker">
@@ -45,11 +47,41 @@
   <img src="https://img.shields.io/badge/Linux-F4B7CE?style=for-the-badge&logo=linux&logoColor=fff&labelColor=F4B7CE" alt="Linux">
 </p>
 
+<p align="center"><img src="https://img.shields.io/badge/databases-C77D9E?style=flat-square&labelColor=C77D9E" alt="databases"></p>
 <p align="center">
   <img src="https://img.shields.io/badge/PostgreSQL-F3C4D6?style=for-the-badge&logo=postgresql&logoColor=fff&labelColor=F3C4D6" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Oracle-F3C4D6?style=for-the-badge&logo=oracle&logoColor=fff&labelColor=F3C4D6" alt="Oracle">
+  <img src="https://img.shields.io/badge/ClickHouse-F3C4D6?style=for-the-badge&logo=clickhouse&logoColor=fff&labelColor=F3C4D6" alt="ClickHouse">
   <img src="https://img.shields.io/badge/Redis-F3C4D6?style=for-the-badge&logo=redis&logoColor=fff&labelColor=F3C4D6" alt="Redis">
-  <img src="https://img.shields.io/badge/Kafka-F3C4D6?style=for-the-badge&logo=apachekafka&logoColor=fff&labelColor=F3C4D6" alt="Kafka">
-  <img src="https://img.shields.io/badge/Grafana-F3C4D6?style=for-the-badge&logo=grafana&logoColor=fff&labelColor=F3C4D6" alt="Grafana">
+</p>
+
+<p align="center"><img src="https://img.shields.io/badge/streaming%20%26%20observability-C77D9E?style=flat-square&labelColor=C77D9E" alt="streaming & observability"></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Kafka-F0BBD0?style=for-the-badge&logo=apachekafka&logoColor=fff&labelColor=F0BBD0" alt="Kafka">
+  <img src="https://img.shields.io/badge/Grafana-F0BBD0?style=for-the-badge&logo=grafana&logoColor=fff&labelColor=F0BBD0" alt="Grafana">
+</p>
+
+<p align="center"><img src="https://img.shields.io/badge/networking-C77D9E?style=flat-square&labelColor=C77D9E" alt="networking"></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/TCP-E8A9C3?style=for-the-badge" alt="TCP">
+  <img src="https://img.shields.io/badge/IP-E8A9C3?style=for-the-badge" alt="IP">
+  <img src="https://img.shields.io/badge/UDP-E8A9C3?style=for-the-badge" alt="UDP">
+  <img src="https://img.shields.io/badge/ICMP-E8A9C3?style=for-the-badge" alt="ICMP">
+  <img src="https://img.shields.io/badge/Ethernet-E8A9C3?style=for-the-badge" alt="Ethernet">
+  <img src="https://img.shields.io/badge/VPN-E8A9C3?style=for-the-badge" alt="VPN">
+  <img src="https://img.shields.io/badge/Other-E8A9C3?style=for-the-badge" alt="Other">
+</p>
+
+<p align="center"><img src="https://img.shields.io/badge/domain%20knowledge-C77D9E?style=flat-square&labelColor=C77D9E" alt="domain knowledge"></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Computer_Science-EEA9C5?style=for-the-badge" alt="Computer Science">
+  <img src="https://img.shields.io/badge/Networking-EEA9C5?style=for-the-badge" alt="Networking">
+  <img src="https://img.shields.io/badge/Distributed_Systems-EEA9C5?style=for-the-badge" alt="Distributed Systems">
+  <img src="https://img.shields.io/badge/High_Load-EEA9C5?style=for-the-badge" alt="High Load">
+  <img src="https://img.shields.io/badge/Fault_Tolerance-EEA9C5?style=for-the-badge" alt="Fault Tolerance">
+  <img src="https://img.shields.io/badge/Observability-EEA9C5?style=for-the-badge" alt="Observability">
+  <img src="https://img.shields.io/badge/System_Design-EEA9C5?style=for-the-badge" alt="System Design">
+  <img src="https://img.shields.io/badge/Software_Development-EEA9C5?style=for-the-badge" alt="Software Development">
 </p>
 
 <p align="center">
