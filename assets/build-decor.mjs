@@ -12,6 +12,7 @@ const JBM = b64('./fonts/jetbrains-mono.woff2');
 const C = {
   rose: '#E48BAE',
   roseDeep: '#DB7BA4',
+  icon: '#EC9CBF',
   mut: '#C98BA6',
   bullet: '#F4A6C0',
   pink: '#FFB3CD',
@@ -36,8 +37,12 @@ const ICON = {
 // ─────────────────────────── tagline.svg (stack cycle + icons) ─────────────
 const stack = ['kubernetes', 'go', 'python', 'bash', 'docker', 'ansible', 'linux'];
 const TW = 760, TH = 66;
-const slot = 3.0;
+const slot = 2.6;
 const tcycle = stack.length * slot;
+const share = 100 / stack.length;       // % of cycle per slide
+const FIN = (share * 0.18).toFixed(2);   // fade-in end
+const HOLD = (share * 0.82).toFixed(2);  // hold end
+const OUT = share.toFixed(2);            // fully out
 const ICON_PX = 32, GAP = 16, FS = 30, ADV = 0.55;
 
 const slides = stack.map((key, i) => {
@@ -48,7 +53,7 @@ const slides = stack.map((key, i) => {
   const scale = ICON_PX / 24;
   const iconY = 33 - ICON_PX / 2;
   return `<g class="ph" style="--dl:${(i * slot).toFixed(2)}s">
-    <path d="${ICON[key]}" fill="${C.roseDeep}" transform="translate(${startX.toFixed(1)} ${iconY}) scale(${scale.toFixed(4)})"/>
+    <path d="${ICON[key]}" fill="${C.icon}" transform="translate(${startX.toFixed(1)} ${iconY}) scale(${scale.toFixed(4)})"/>
     <text x="${(startX + ICON_PX + GAP).toFixed(1)}" y="42" font-size="${FS}" font-weight="700" fill="${C.rose}">${name}</text>
   </g>`;
 }).join('\n  ');
@@ -59,13 +64,13 @@ const tagline = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${TW} ${TH
       ${FACE}
       text{shape-rendering:crispEdges}
       .ph{opacity:0;animation:show ${tcycle}s ease-in-out var(--dl,0s) infinite}
-      @keyframes show{0%{opacity:0}2%{opacity:1}16%{opacity:1}20%{opacity:0}100%{opacity:0}}
+      @keyframes show{0%{opacity:0;transform:translateY(7px)}${FIN}%{opacity:1;transform:translateY(0)}${HOLD}%{opacity:1;transform:translateY(0)}${OUT}%{opacity:0;transform:translateY(-7px)}100%{opacity:0;transform:translateY(-7px)}}
     </style>
   </defs>
   ${slides}
 </svg>
 `;
-writeFileSync(new URL('./stack.svg', import.meta.url), tagline);
+writeFileSync(new URL('./tech-stack.svg', import.meta.url), tagline);
 
 // ─────────────────────────── about-card.svg (code window) ─────────────────
 // macOS-style code editor screenshot: traffic lights + syntax-highlit Go.
