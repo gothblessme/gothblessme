@@ -54,6 +54,8 @@
 <p align="center"><img src="https://img.shields.io/badge/streaming%20%26%20observability-C77D9E?style=flat-square&labelColor=C77D9E" alt="streaming & observability"></p>
 <p align="center">
   <img src="https://img.shields.io/badge/Kafka-F0BBD0?style=for-the-badge&logo=apachekafka&logoColor=fff&labelColor=F0BBD0" alt="Kafka">
+  <img src="https://img.shields.io/badge/RabbitMQ-F0BBD0?style=for-the-badge&logo=rabbitmq&logoColor=fff&labelColor=F0BBD0" alt="RabbitMQ">
+  <img src="https://img.shields.io/badge/Mosquitto-F0BBD0?style=for-the-badge&logo=eclipsemosquitto&logoColor=fff&labelColor=F0BBD0" alt="Mosquitto">
   <img src="https://img.shields.io/badge/Grafana-F0BBD0?style=for-the-badge&logo=grafana&logoColor=fff&labelColor=F0BBD0" alt="Grafana">
 </p>
 
